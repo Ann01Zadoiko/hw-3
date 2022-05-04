@@ -1,7 +1,5 @@
-package molude;
-
 public class ATM {
-    public int countBanknotes(int sum){
+  public int countBanknotes(int sum){
         int count = 0;
         int j = 100;
         while (sum > 0 && j>=1){
@@ -31,4 +29,3 @@ public class ATM {
         return count;
     }
 }
-
